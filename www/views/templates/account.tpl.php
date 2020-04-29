@@ -23,7 +23,10 @@
 <body class="bg-gradient-primary">
 
   <div class="container">
-    <?php include "views/".$this->view.".view.php";?>
+    <?php include "views/".$this->view.".php";
+    
+   
+    ?>
   </div>
 
   <!-- Bootstrap core JavaScript-->
